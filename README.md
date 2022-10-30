@@ -8,7 +8,31 @@
 	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
 
 # Burp Suite Professional Installation steps for Linux
---> Execute Kali_Linux_Setup.sh file as root user
+1. Open Terminal And Type
+```bash
+git clone https://github.com/Agellls/Burp-Suite-Lifetime.git
+```
+
+2. After Done Type
+```bash
+cd Burp-Suite-Lifetime
+```
+
+3. Now Type
+```bash
+sudo chmod 777 Kali_Linux_Setup.sh
+```
+```bash
+sudo chmod 777 keygen.jar
+```
+```bash
+sudo chmod 777 loader.jar
+```
+
+4. Now Donwload Burpsuite Pro With Type
+```bash
+sudo ./Kali_Linux_Setup.sh
+```
 
 # Burp Suite Pro Activation Steps
 1. Modify License String like "license to cybercommunity03"
@@ -23,3 +47,13 @@
 --> Windows :-: You can start Burp Suite Professional from Start Menu.
 
 --> Kali Linux :-: You can start Burp Suite Professional by writing **burp** in terminal.
+
+# NOTE IF U GOT LICENCE POP UP AGAIN
+1. Just run
+```bash
+java -jav keygen.jar
+```
+
+2. And Repeat Process Activation Steps
+
+3. After That Enjoy To Use Burpsuite Pro :)
